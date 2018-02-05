@@ -43,7 +43,7 @@ module.exports = (userId, apiKey) => {
                         return this.short(url, cb, true)
                     }
 					console.log('Error parsing JSON.', body)
-                    cb(false, json)
+                    cb(false, body)
 				}
 			})
         })
